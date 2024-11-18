@@ -31,3 +31,4 @@ OAUTH_GOOGLE_CLIENT_SECRET
 ```
 To get a clearer understanding, you can visit this link to get more information: [Chainlit documentaion](https://docs.chainlit.io/authentication/overview)
 
+### Author: Trinh The Hao - 10421017 - Vietnamese German University(VGU) ###
