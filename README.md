@@ -15,7 +15,8 @@ Install **LlamaIndex**:
   pip install llama_index
 ```
 ### Requirements for Chainlit and OpenAI API ###
-You should create a .env file to store the required keys
+You should create a .env file to store the required keys.
+
 Below are the necessary keys:
 
 ```
