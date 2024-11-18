@@ -155,14 +155,15 @@ async def on_chat_start():
     cl.user_session.set("agent", agent)
     cl.user_session.set("chat_store", chat_store)
     
-
+# function when a user resumes a chat session
 @cl.on_chat_resume
 async def on_chat_resume():
     chat_store = load_chat_store()
     agent = initialize_chatbot(chat_store)
     cl.user_session.set("agent", agent)
     cl.user_session.set("chat_store", chat_store)
-    
+
+# function when conversation between user and chatbot is ongoing
 @cl.on_message
 async def on_chat_message(message):
     agent = cl.user_session.get("agent")
